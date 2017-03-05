@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dashLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dashlineHeight</item>
+        <item name="android:background">@drawable/shape_dash_line</item>
+        <item name="android:layerType">software</item>
+    </style>
+
+    <style name="dashLine.L">
+        <item name="android:background">@drawable/shape_dash_line_l</item>
+    </style>
+
+</resources>

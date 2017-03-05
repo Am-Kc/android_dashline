@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:left="@dimen/p">
+        <shape android:shape="line">
+            <stroke
+                android:width="@dimen/strokeWidth"
+                android:color="#000"
+                android:dashGap="3dp"
+                android:dashWidth="3dp" />
+            <size android:height="@dimen/dashlineHeight" />
+        </shape>
+    </item>
+</layer-list>
